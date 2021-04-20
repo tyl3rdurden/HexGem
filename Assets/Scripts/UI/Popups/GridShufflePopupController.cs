@@ -24,9 +24,13 @@ public class GridShufflePopupController : PopupController
         gridMatchValidator.OnInvalidGrid += ShowView;
     }
     
-    private void OnClickOKBtn()
+    protected override void OnHide()
     {
         gridMatchValidator.ShuffleGrid();
+    }
+    
+    private void OnClickOKBtn()
+    {
         HideView();
     }
 }
