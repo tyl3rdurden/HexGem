@@ -6,7 +6,7 @@ public abstract class PopupController : UIController
     [SerializeField] protected PopupManager popupManager;
     [SerializeField] protected Button exitButton;
 
-    [SerializeField] protected bool isBlockedFromBackButton;
+    //public bool isBlockedFromBackButton;
 
     protected override void Init()
     {
@@ -31,9 +31,6 @@ public abstract class PopupController : UIController
 
     public sealed override void HideView()
     {
-        if (isBlockedFromBackButton)
-            return;
-        
         popupManager.RemoveFromActiveUI(this);
         popupManager.ResumeGame();
         base.HideView();
