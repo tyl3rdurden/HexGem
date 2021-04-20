@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d076fe9c5aa448c1b9a1edfaafc90914, type: 3}
+  m_Name: FXGrid
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3967487458661418534, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 9053834103756908351, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 5767820720735511986, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 8202952590953655432, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 5876626593146095778, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1266176774025218726, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 7743680875759209159, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 3637449760424259804, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1774219148487260905, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 3821894975435072782, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 7944046009885124137, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1361983628241205246, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 7946663945052599433, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1377158358136442952, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 4212180443167867500, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 7641521487825561139, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 9112212209325180399, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1076026876426760659, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 3097593640792610978, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 6335696862930663475, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1536097772916959307, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 3725365780426130535, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1968764096133547880, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 7334449028679239133, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 897610527051528969, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 6132632378320094276, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1922728607367349416, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 8575567320769363160, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 7113236218480956756, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 767984275674389613, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 314563948491653105, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 873968027005507379, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 5917450331566535027, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 2092856613273114018, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 2146013222940027093, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 4170419764808157258, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 1447140255090735354, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 6618752853318150400, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 8282949249986587882, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 6302864599980749741, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 5566286476363274502, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 467967248823069866, guid: 2096d050b3bf7854e96e6ff85ba81cbb, type: 3}
+    - {fileID: 3806633503210859494, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 2672954369864357088, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 598586267357900901, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 1842770001348332469, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 2141110071715165536, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 5486810758554034826, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 1865003062829643993, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 3310792693529744646, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 768750715105068589, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 1997254791001214856, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7594030611575593560, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 6266281831992579194, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 6135646781003218758, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7511146468068593487, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7282170382707595667, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 209811656469694824, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 6041834173932154996, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 4950742016470545421, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 2771142268224697820, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7830092965877473326, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7825763486351121373, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 1031693078780081752, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 8672528124879915084, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 4140301440836883810, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 5469691344592484404, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 3164797909145916993, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 6103325773766185563, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 8680588212865936092, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7878187066182591341, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 1390337445958507516, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 6994610462599856449, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7391071908791411969, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7323774354330470245, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 8244456824317599631, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 3718475637612007357, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 6081613207544055299, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 4128216254025810423, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 7860084047334308818, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 5470128014326940182, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 9187025801966027973, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 1369977068864358543, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    - {fileID: 8113197510226069910, guid: 7a9f6d06dbfeaed41aa9a9fd2a9b5950, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ForegroundFXs
+      Entry: 7
+      Data: 0|UnityEngine.Transform[,], UnityEngine.CoreModule
+    - Name: 
+      Entry: 12
+      Data: 42
+    - Name: ranks
+      Entry: 1
+      Data: 7|6
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 10
+      Data: 38
+    - Name: 
+      Entry: 10
+      Data: 39
+    - Name: 
+      Entry: 10
+      Data: 40
+    - Name: 
+      Entry: 10
+      Data: 41
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ParticleFXs
+      Entry: 7
+      Data: 1|Coffee.UIExtensions.UIParticle[,], Coffee.UIParticle
+    - Name: 
+      Entry: 12
+      Data: 42
+    - Name: ranks
+      Entry: 1
+      Data: 7|6
+    - Name: 
+      Entry: 10
+      Data: 42
+    - Name: 
+      Entry: 10
+      Data: 43
+    - Name: 
+      Entry: 10
+      Data: 44
+    - Name: 
+      Entry: 10
+      Data: 45
+    - Name: 
+      Entry: 10
+      Data: 46
+    - Name: 
+      Entry: 10
+      Data: 47
+    - Name: 
+      Entry: 10
+      Data: 48
+    - Name: 
+      Entry: 10
+      Data: 49
+    - Name: 
+      Entry: 10
+      Data: 50
+    - Name: 
+      Entry: 10
+      Data: 51
+    - Name: 
+      Entry: 10
+      Data: 52
+    - Name: 
+      Entry: 10
+      Data: 53
+    - Name: 
+      Entry: 10
+      Data: 54
+    - Name: 
+      Entry: 10
+      Data: 55
+    - Name: 
+      Entry: 10
+      Data: 56
+    - Name: 
+      Entry: 10
+      Data: 57
+    - Name: 
+      Entry: 10
+      Data: 58
+    - Name: 
+      Entry: 10
+      Data: 59
+    - Name: 
+      Entry: 10
+      Data: 60
+    - Name: 
+      Entry: 10
+      Data: 61
+    - Name: 
+      Entry: 10
+      Data: 62
+    - Name: 
+      Entry: 10
+      Data: 63
+    - Name: 
+      Entry: 10
+      Data: 64
+    - Name: 
+      Entry: 10
+      Data: 65
+    - Name: 
+      Entry: 10
+      Data: 66
+    - Name: 
+      Entry: 10
+      Data: 67
+    - Name: 
+      Entry: 10
+      Data: 68
+    - Name: 
+      Entry: 10
+      Data: 69
+    - Name: 
+      Entry: 10
+      Data: 70
+    - Name: 
+      Entry: 10
+      Data: 71
+    - Name: 
+      Entry: 10
+      Data: 72
+    - Name: 
+      Entry: 10
+      Data: 73
+    - Name: 
+      Entry: 10
+      Data: 74
+    - Name: 
+      Entry: 10
+      Data: 75
+    - Name: 
+      Entry: 10
+      Data: 76
+    - Name: 
+      Entry: 10
+      Data: 77
+    - Name: 
+      Entry: 10
+      Data: 78
+    - Name: 
+      Entry: 10
+      Data: 79
+    - Name: 
+      Entry: 10
+      Data: 80
+    - Name: 
+      Entry: 10
+      Data: 81
+    - Name: 
+      Entry: 10
+      Data: 82
+    - Name: 
+      Entry: 10
+      Data: 83
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

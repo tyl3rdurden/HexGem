@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616400504c744bd18d6f0d4eabd93e2f, type: 3}
+  m_Name: BlockBehaviourMixin
+  m_EditorClassIdentifier: 
+  neighborGrid: {fileID: 11400000, guid: d96ed2d6e25f71249b0853cfd640afee, type: 2}
+  selectedBlockSet: {fileID: 11400000, guid: 675e8766826244c478fdb739dbeb5592, type: 2}
+  hexGrid: {fileID: 11400000, guid: f497f2a99c15c97479e4b227f09b571d, type: 2}
+  selectionStateManager: {fileID: 11400000, guid: 3e889f52d7183b94fb7d83806cb2de90,
+    type: 2}

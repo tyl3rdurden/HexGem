@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: UnityBuildSettings
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: C:\Users\Tyler\Dropbox
+    buildPath: Builds\$RELEASE_TYPE
+    openFolderPostBuild: 1
+  _productParameters:
+    buildCounter: 14
+    lastGeneratedVersion: 1.0.2300.4866
+    version: 1.0.$DAYSSINCE("January 1, 2015").$SECONDS
+    autoGenerate: 1
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: ReleaseBuild
+      bundleIdentifier: com.catscradle.hexgem
+      companyName: CatsCradle
+      productName: HexGem
+      incrementalGC: 1
+      cppCompilerConfiguration: 2
+      developmentBuild: 0
+      allowDebugging: 0
+      waitForManagedDebugger: 0
+      enableHeadlessMode: 0
+      customDefines: ODIN_INSPECTOR;ODIN_INSPECTOR_3;LIVE;ODIN_VALIDATOR
+      sceneList:
+        enabledScenes:
+        - fileGUID: 944a3e221102b864abe939ee42cff426
+    - typeName: DebugType
+      bundleIdentifier: com.catscradle.hexgem
+      companyName: CatsCradle
+      productName: HexGem
+      incrementalGC: 1
+      cppCompilerConfiguration: 0
+      developmentBuild: 1
+      allowDebugging: 1
+      waitForManagedDebugger: 0
+      enableHeadlessMode: 0
+      customDefines: ODIN_INSPECTOR;ODIN_INSPECTOR_3;LIVE;ODIN_VALIDATOR
+      sceneList:
+        enabledScenes: []
+  _platformList:
+    platforms:
+    - enabled: 0
+      distributionList:
+        distributions: []
+      architectures:
+      - target: 13
+        name: Android
+        enabled: 1
+        binaryNameFormat: '{0}.apk'
+      variants:
+      - variantName: Device Type
+        selectedIndex: 0
+        values:
+        - ARMv7
+        - ARM64
+        - All
+      - variantName: Texture Compression
+        selectedIndex: 1
+        values:
+        - ETC
+        - ETC2
+        - ASTC
+        - DXT
+        - PVRTC
+        - ATC
+        - Generic
+      - variantName: Build System
+        selectedIndex: 0
+        values:
+        - Internal
+        - Gradle
+        - ADT (Legacy)
+      - variantName: Split APKs
+        selectedIndex: 0
+        values:
+        - Disabled
+        - Enabled
+      - variantName: C++ Compiler Configuration
+        selectedIndex: 2
+        values:
+        - Debug
+        - Release
+        - Master
+      - variantName: Use Incremental GC
+        selectedIndex: 1
+        values:
+        - Disabled
+        - Enabled
+      platformName: Android
+      dataDirNameFormat: '{0}_Data'
+      targetGroup: 7
+    - enabled: 1
+      distributionList:
+        distributions: []
+      architectures:
+      - target: 13
+        name: Android
+        enabled: 1
+        binaryNameFormat: '{0}.apk'
+      variants:
+      - variantName: Device Type
+        selectedIndex: 0
+        values:
+        - ARMv7
+        - ARM64
+        - All
+      - variantName: Texture Compression
+        selectedIndex: 1
+        values:
+        - ETC
+        - ETC2
+        - ASTC
+        - DXT
+        - PVRTC
+        - ATC
+        - Generic
+      - variantName: Build System
+        selectedIndex: 0
+        values:
+        - Internal
+        - Gradle
+        - ADT (Legacy)
+      - variantName: Split APKs
+        selectedIndex: 0
+        values:
+        - Disabled
+        - Enabled
+      platformName: Android
+      dataDirNameFormat: '{0}_Data'
+      targetGroup: 7
+  _projectConfigurations:
+    configSet:
+      _Buckets: 04000000ffffffff050000000300000000000000ffffffff02000000
+      _HashCodes: 389f5c03cf6d6309c3328b602c7d7142ed7cfb3c8dcdf97d00000000
+      _Next: ffffffffffffffffffffffff01000000ffffffffffffffff00000000
+      _Count: 6
+      _Version: 6
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - ReleaseBuild/Android/Android (ARMv7,ETC2,Internal,Disabled)
+      - ReleaseBuild/Android
+      - ReleaseBuild
+      - DebugType/Android/Android (ARMv7,ETC2,Internal,Disabled)
+      - DebugType/Android
+      - DebugType
+      - 
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - ReleaseBuild/Android/Android (ARMv7,ETC2,Internal,Disabled)
+      - enabled: 1
+        childKeys:
+        - ReleaseBuild/Android
+      - enabled: 0
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - DebugType/Android/Android (ARMv7,ETC2,Internal,Disabled)
+      - enabled: 1
+        childKeys:
+        - DebugType/Android
+      - enabled: 1
+        childKeys: []
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 0
+    treeView: 0
+    selectedKeyChain: ReleaseBuild/Android/Android (ARMv7,ETC2,Internal,Disabled)
+  _preBuildActions:
+    buildActions: []
+  _postBuildActions:
+    buildActions: []

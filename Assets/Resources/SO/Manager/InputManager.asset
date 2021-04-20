@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2502879781334c559cfeb5289c44e6a2, type: 3}
+  m_Name: InputManager
+  m_EditorClassIdentifier: 
+  gameStateManager: {fileID: 11400000, guid: be073407f1e538547bffddf4fea719b5, type: 2}
+  pauseManager: {fileID: 11400000, guid: 41325c752b512cc42aa8f7678aa35310, type: 2}

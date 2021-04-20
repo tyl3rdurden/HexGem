@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff6bedd704843d3bcd610210cd69dbf, type: 3}
+  m_Name: TimeFreeMode
+  m_EditorClassIdentifier: 
+  Type: 1
+  gameStateManager: {fileID: 11400000, guid: be073407f1e538547bffddf4fea719b5, type: 2}
+  defaultTime: 0
+  useTestValue: 0
+  testTime: 0
+  CurrentTime: 0
+  CurrentTimeInt: 0

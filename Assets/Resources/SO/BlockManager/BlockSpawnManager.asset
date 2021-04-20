@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690525a125b34224aeded7e3d4120dc1, type: 3}
+  m_Name: BlockSpawnManager
+  m_EditorClassIdentifier: 
+  hexGrid: {fileID: 11400000, guid: f497f2a99c15c97479e4b227f09b571d, type: 2}
+  blockSpawner: {fileID: 11400000, guid: 8a809ca60e69b4d48ab83b0c03172a3c, type: 2}
+  blockMover: {fileID: 11400000, guid: 0495be2bd0a02854087dfdff9330d652, type: 2}
+  gridMatchValidator: {fileID: 11400000, guid: 60a6df62a6bbb9c47b575ae873506656, type: 2}
+  newlySpawnedBlockSet: {fileID: 11400000, guid: a29c6deba808003479aaae95d1e47d4d,
+    type: 2}
+  UsePreGeneratedGrid: 0
+  preMadeGrid: {fileID: 11400000, guid: 96fe39e8a67b380438ad74a5885fb0ca, type: 2}

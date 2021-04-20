@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a61baa1a7544eb8b5ee407c673c5cf5, type: 3}
+  m_Name: _GameStateManager
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: bcb94d577f4d8a54d97fbac8ca9ab53e, type: 2}
+    - {fileID: 11400000, guid: 79bdfa1e3fd04134ca97502d38106198, type: 2}
+    - {fileID: 11400000, guid: 810ce23e2ffe60a4f8cdabc87c7d8cd2, type: 2}
+    - {fileID: 11400000, guid: 9e60cce481f60e14d9251949289a3e5a, type: 2}
+    - {fileID: 11400000, guid: d01711ecd6131714c9822ab3d1157b48, type: 2}
+    - {fileID: 11400000, guid: 8db3690a78573e8438b28be14c3c0873, type: 2}
+    - {fileID: 11400000, guid: 1f94ca964f8a49841a257e0094aa660e, type: 2}
+    - {fileID: 11400000, guid: c316790bf7b767f46a54b2276bd2ea24, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: GameStateDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[GameStateType, Assembly-CSharp],[GameState,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[GameStateType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  defaultStateType: 1
+  gameStateLists:
+  - {fileID: 11400000, guid: bcb94d577f4d8a54d97fbac8ca9ab53e, type: 2}
+  - {fileID: 11400000, guid: 79bdfa1e3fd04134ca97502d38106198, type: 2}
+  - {fileID: 11400000, guid: 810ce23e2ffe60a4f8cdabc87c7d8cd2, type: 2}
+  - {fileID: 11400000, guid: 9e60cce481f60e14d9251949289a3e5a, type: 2}
+  - {fileID: 11400000, guid: d01711ecd6131714c9822ab3d1157b48, type: 2}
+  - {fileID: 11400000, guid: 8db3690a78573e8438b28be14c3c0873, type: 2}
+  - {fileID: 11400000, guid: 1f94ca964f8a49841a257e0094aa660e, type: 2}
+  - {fileID: 11400000, guid: c316790bf7b767f46a54b2276bd2ea24, type: 2}

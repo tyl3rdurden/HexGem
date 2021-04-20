@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0cbbd866f416f4c8adbf54ffc7b8c1, type: 3}
+  m_Name: BlockData
+  m_EditorClassIdentifier: 
+  spriteSet: {fileID: 11400000, guid: 0e6535d2ff7bb3f4eacd3128e8cd41dc, type: 2}
+  blockBehaviourSet: {fileID: 11400000, guid: 120b375b376695e46a1a81b9e1861b5f, type: 2}
