@@ -1,6 +1,6 @@
 # Hex Gem
 
-Portfolio project of a simple 3 match game \
+Portfolio project of a simple 3 match game 
 
 
 Features:
