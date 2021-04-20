@@ -1,6 +1,8 @@
 # Hex Gem
 
-Portfolio project of a simple 3 match game
+Portfolio project of a simple 3 match game \
+
+
 Features:
 * Classic simple brush style 3 match game
 * Time based (but also has Unlimited time mode option)
@@ -14,15 +16,26 @@ Game Play \
 ![GamePlay](https://i.imgur.com/RHTe9aj.gif) \
 (Graphics Credits: [KennyNL](https://www.kenney.nl/assets))
 
+Setup Instructions:
+1. Pull repository
+2. Import Odin Inspector asset into Plugin folder
+3. Enable Simulated Touchscreen support \
+  3.1 Open Input Debug Window \
+   ![Imgur](https://i.imgur.com/4dARPgo.png) \
+  3.2 Enable Simulated Touchscreen support \
+   ![Imgur](https://i.imgur.com/6EiHma4.png)
+4. Press Play!
+
+
 ## Technical Goals 
 
 ### Try out Scriptable Object Architecture
 * **Unity Editor is Dependency Injector**  
   * No need for other large libraries ex) Zenject  
 * NO `MonoBehaviour` singletons  
-  * Bring any prefab into scene and have it work without dragging in millions of managers/singletons
+  * Bring any prefab into scene and have it work without dragging in millions of connected managers/singletons
 * Reduce Scene version control conflicts as most changes happen in smaller chunks of asset data and not scene data
-* Able to swap data or algorithms easily by copying the original, changing the data, and dragging in the new one
+* Able to swap data or algorithms easily by copying the original SO, changing the data, and dragging in the new one
 * Based off of the Unite videos
   * [Unite 2017 - Game Architecture with Scriptable Objects](https://www.youtube.com/watch?v=raQ3iHhE_Kk)
   * [Unite 2016 - Overthrowing the MonoBehaviour Tyranny](https://www.youtube.com/watch?v=6vmRwLYWNRo)
